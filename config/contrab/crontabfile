@@ -1,0 +1,2 @@
+# 每十分钟执行一次构建
+*/10 * * * * /var/www/apidoc_py/build.py >> /var/www/apidoc_py/logs/cron/`cron +%y%m%d`.log

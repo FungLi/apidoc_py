@@ -1,0 +1,18 @@
+apidoc-py:
+  build: ./
+  container_name: apidoc-py
+  volumes:
+    - /webser/www:/var/www/html
+  ports:
+    - "5001:5001"
+nginx:
+  image: docker.io/nginx
+  container_name: nginx
+  ports:
+    - "80:80"
+  volumes:
+    - /webser/www:/var/www/html
+    - ./config/nginx/conf.d:/etc/nginx/conf.d
+    - /webser/logs/nginx:/var/log/nginx
+  links:
+    - apidoc-py
