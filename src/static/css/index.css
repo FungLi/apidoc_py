@@ -1,0 +1,7 @@
+.nav-container {width: 250px; float: left;}
+.nav-container ul {padding: 5px;position: fixed;overflow-x: hidden;overflow-y: auto;} 
+.nav-container li {list-style: none; margin-left: 5px; overflow: hidden; margin-bottom: 5px;}
+.nav-title {height: 65px; line-height: 65px; font-size: 25px; text-align: center; font-weight: bold; background-color: #F5F5F5}
+.item-project {font-size: 20px;}
+
+.doc-container { position: absolute; left: 250px; right: 0px; height: 100%}

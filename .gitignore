@@ -1,0 +1,5 @@
+.vscode
+.DS_Store
+**/.DS_Store
+src/**/__pycache__
+src/static/apidocs/*
