@@ -3,3 +3,4 @@
 **/.DS_Store
 src/**/__pycache__
 src/static/apidocs/*
+apidoc-client.sh
